@@ -16,7 +16,7 @@
       }
       window.androidIosPhoto = function (imgBase64) {
         var e = document.getElementById('imgBase64');
-        e.innerText = imgBase64;
+        e.innerText = decodeURIComponent(imgBase64);
       }
     </script>
   </body>
